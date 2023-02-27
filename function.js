@@ -31,7 +31,7 @@ doces.addEventListener("click", (event)=>{
 
 sobre.addEventListener("click", (event)=>{
     event.preventDefault()
-    imgmain2.setAttribute("src", "cone-trufado-tradicional.jpg")
+    imgmain2.setAttribute("src", "cone-trufado-beijinho.jpg")
     paragrafo1.style.display = ""
     paragrafo1.innerText = "Bem Vindo ao CL Doces!"
     paragrafo2.style.display = ""
@@ -50,7 +50,7 @@ sobre.addEventListener("click", (event)=>{
 
 contato.addEventListener("click", (event)=>{
     event.preventDefault()
-    imgmain2.setAttribute("src", "cone-trufado-tradicional.jpg")
+    imgmain2.setAttribute("src", "cone-trufado-beijinho.jpg")
     paragrafo1.style.display = ""
     paragrafo2.style.display = "none"
     paragrafo3.style.display = "none"
@@ -66,7 +66,7 @@ contato.addEventListener("click", (event)=>{
 
 local.addEventListener("click", (event)=>{
     event.preventDefault()
-    imgmain2.setAttribute("src", "cone-trufado-tradicional.jpg")
+    imgmain2.setAttribute("src", "cone-trufado-beijinho.jpg")
     paragrafo1.style.display = ""
     paragrafo2.style.display = ""
     paragrafo3.style.display = ""
