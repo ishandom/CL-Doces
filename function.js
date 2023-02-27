@@ -23,6 +23,7 @@ doces.addEventListener("click", (event)=>{
     paragrafo5.style.display = "none"
     imgmain2.style.display = ""
     main1.style.display = ""
+    main1.style.width = "50%"
     main2.style.display = ""
     imgmain2.style.backgroundColor = "#747F7F"
     main2.style.gap = "1rem"
