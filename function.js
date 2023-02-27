@@ -8,7 +8,8 @@ var paragrafo2 = document.getElementById("paragrafo2")
 var paragrafo3 = document.getElementById("paragrafo3")
 var paragrafo4 = document.getElementById("paragrafo4")
 var paragrafo5 = document.getElementById("paragrafo5")
-var main1 = document.getElementById("divmainimg")
+var main1 = document.getElementById("mainimg")
+var main2 = document.getElementById("divmainimg")
 
 
 doces.addEventListener("click", (event)=>{
@@ -21,6 +22,7 @@ doces.addEventListener("click", (event)=>{
     paragrafo5.style.display = "none"
     imgmain2.style.display = ""
     main1.style.display = ""
+    main2.style.display = ""
 })
 
 sobre.addEventListener("click", (event)=>{
@@ -39,6 +41,7 @@ sobre.addEventListener("click", (event)=>{
     paragrafo4.style.display = ""
     imgmain2.style.display = "none"
     main1.style.display = "none"
+    main2.style.display = "none"
 })
 
 contato.addEventListener("click", (event)=>{
@@ -54,6 +57,7 @@ contato.addEventListener("click", (event)=>{
     paragrafo5.style.display = ""
     imgmain2.style.display = "none"
     main1.style.display = "none"
+    main2.style.display = "none"
 })
 
 local.addEventListener("click", (event)=>{
@@ -71,4 +75,6 @@ local.addEventListener("click", (event)=>{
     paragrafo5.style.display = ""
     imgmain2.style.display = "none"
     main1.style.display = "none"
+    main2.style.display = "none"
 })
+
