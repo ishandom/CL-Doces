@@ -46,6 +46,7 @@ sobre.addEventListener("click", (event)=>{
     imgmain2.style.display = "none"
     main1.style.display = "none"
     main2.style.display = "none"
+    maintext.style.display = ""
 })
 
 contato.addEventListener("click", (event)=>{
@@ -62,6 +63,7 @@ contato.addEventListener("click", (event)=>{
     imgmain2.style.display = "none"
     main1.style.display = "none"
     main2.style.display = "none"
+    maintext.style.display = ""
 })
 
 local.addEventListener("click", (event)=>{
@@ -80,4 +82,5 @@ local.addEventListener("click", (event)=>{
     imgmain2.style.display = "none"
     main1.style.display = "none"
     main2.style.display = "none"
+    maintext.style.display = ""
 })
